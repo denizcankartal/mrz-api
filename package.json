@@ -1,0 +1,24 @@
+{
+  "name": "mrz-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Jonathan Indetzki & Deniz Kartal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.11",
+    "mrz": "^3.1.0",
+    "node-cmake": "^2.5.1",
+    "opencv-build": "^0.1.9",
+    "opencv4nodejs": "^5.5.0",
+    "tmp-promise": "^2.0.2",
+    "uuid": "^3.4.0"
+  }
+}
